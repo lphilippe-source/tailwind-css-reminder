@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001617"
+  },
+  "name": "tailwind-recipe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
